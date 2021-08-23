@@ -12,7 +12,7 @@
 #         For example, if some_char in 'abc':
 
 letter = input("Enter a letter fromt the alphabet (a-z or A-Z): ").lower()
-vowels = ["a", "i", "o", "u", "y"]
+vowels = ["a", "e", "i", "o", "u", "y"]
 
 if letter in vowels:
     print(f"The letter {letter} is a vowel")
